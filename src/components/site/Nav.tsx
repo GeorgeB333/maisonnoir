@@ -19,8 +19,6 @@ export function Nav() {
 
   const { scrollY } = useScroll();
   useMotionValueEvent(scrollY, "change", (v) => setIsCompact(v > 24));
-  const stripHeight = useTransform(scrollY, [0, 120], [34, 0]);
-  const stripOpacity = useTransform(scrollY, [0, 60, 120], [1, 0.4, 0]);
 
   useEffect(() => {
     const update = () => {
@@ -74,32 +72,6 @@ export function Nav() {
         transition={{ duration: 1.2, ease: EASE, delay: 0.15 }}
         className="fixed inset-x-0 top-0 z-50"
       >
-        {/* — Edition strip — collapses elegantly on scroll — */}
-        <motion.div
-          style={{ height: stripHeight, opacity: stripOpacity }}
-          className="overflow-hidden border-b border-champagne/[0.08]"
-          aria-hidden="true"
-        >
-          <div className="mx-auto flex h-[34px] max-w-[1600px] items-center justify-between px-5 md:px-10">
-            <div className="flex items-center gap-3 font-mono text-[9.5px] uppercase tracking-[0.32em] text-silver/70">
-              <span>Edition Nº 01</span>
-              <span className="hidden h-[1px] w-6 bg-champagne/30 md:block" />
-              <span className="hidden md:inline">MMXXVI · Bucuresti</span>
-            </div>
-            <div className="hidden items-center gap-3 font-mono text-[9.5px] uppercase tracking-[0.32em] text-silver/70 md:flex">
-              <span className="relative flex h-1 w-1">
-                <span className="absolute inset-0 animate-ping rounded-full bg-champagne/60" />
-                <span className="relative inline-flex h-1 w-1 rounded-full bg-champagne" />
-              </span>
-              <span>Studio deschis · Q3 / Q4 — 2 locuri</span>
-            </div>
-            <div className="font-mono text-[9.5px] uppercase tracking-[0.32em] text-silver/70">
-              <span className="md:hidden">BUC</span>
-              <span className="hidden md:inline">Index — 04 capitole</span>
-            </div>
-          </div>
-        </motion.div>
-
         {/* — Main bar — */}
         <motion.div
           animate={{
