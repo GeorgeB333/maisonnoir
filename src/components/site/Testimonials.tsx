@@ -231,7 +231,7 @@ const steps = [
     title: "Frontend Development",
     tagline: "Le punem să se miște.",
     summary:
-      "Transform designul în cod. Rapid, responsive, fluid pe mobil ca pe desktop. Animații cât trebuie, nu efecte pentru efecte.",
+      "Transformăm designul în cod. Rapid, responsive, fluid pe mobil ca pe desktop. Animații cât trebuie, nu efecte pentru efecte.",
     bullets: [
       "React + Vite · cod curat",
       "Animații Motion · 60 fps",

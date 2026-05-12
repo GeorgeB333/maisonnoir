@@ -4,7 +4,7 @@ const principles = [
   {
     n: "i.",
     title: "Claritate",
-    copy: "Înainte să desenez ceva, vrem să fie clar ce vinde site-ul, pentru cine și ce trebuie să facă omul mai departe. Restul vine de aici.",
+    copy: "Înainte să desenăm ceva, vrem să fie clar ce vinde site-ul, pentru cine și ce trebuie să facă omul mai departe. Restul vine de aici.",
   },
   {
     n: "ii.",
@@ -66,7 +66,7 @@ export function About() {
             <div className="hairline-soft mb-9 w-16" />
             <p className="label mb-10">Cum lucrăm</p>
             <p className="drop-cap text-[17px] leading-[1.75] text-bone/88">
-              Nu fac pagini umplute doar ca să pară pline. Prefer mai puțin, dar mai bine —
+              Nu facem pagini umplute doar ca să pară pline. Preferăm mai puțin, dar mai bine —
               secțiuni clare, scrise cu intenție, așezate cu răbdare. Dacă faci lucruri bune,
               site-ul trebuie să le susțină, nu să le acopere.
             </p>

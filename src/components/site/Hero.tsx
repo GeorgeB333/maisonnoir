@@ -112,7 +112,7 @@ export function Hero() {
           >
             <div className="hairline-soft mb-9 w-20 draw-in" style={{ animationDelay: "1.2s" }} />
             <p className="max-w-[44ch] text-[17px] leading-[1.7] text-bone/90 md:text-[19px]">
-              <span className="text-bone">Construiesc site-uri de prezentare</span> pentru
+              <span className="text-bone">Construim site-uri de prezentare</span> pentru
               ateliere, businessuri mici și profesioniști. Strategie, design și cod — făcute de
               aceeași mână, livrate în 1–2 săptămâni.
             </p>
@@ -132,7 +132,7 @@ export function Hero() {
                 Începe un proiect <span className="btn-arrow">↗</span>
               </a>
               <a href="#services" className="btn-ghost w-full justify-center sm:w-auto">
-                Vezi cum lucrez
+                Vezi cum lucrăm
               </a>
             </div>
 
@@ -154,7 +154,7 @@ export function Hero() {
                   v: "Ateliere, businessuri mici și profesioniști care vor să arate la nivelul muncii lor.",
                 },
                 {
-                  k: "Cum lucrez",
+                  k: "Cum lucrăm",
                   v: "Strategie, design și cod, făcute de același om. Fără ping-pong între echipe.",
                 },
                 {

@@ -89,8 +89,8 @@ export function Contact() {
             </motion.h2>
 
             <p className="mt-10 max-w-md text-[16.5px] leading-[1.7] text-bone/85">
-              Lucrez cu oameni care au deja ceva bun de oferit, dar simt că online nu se vede încă
-              pe măsură. Dacă te regăsești, scrie-mi.
+              Lucrăm cu oameni care au deja ceva bun de oferit, dar simt că online nu se vede încă
+              pe măsură. Dacă te regăsești, scrie-ne.
             </p>
 
             <div className="mt-12 space-y-5 border-t border-border/40 pt-8">
@@ -138,14 +138,14 @@ export function Contact() {
             </div>
             <Field label="Email" type="email" name="email" />
             <Field label="Buget estimativ" name="budget" />
-            <Field label="Spune-mi pe scurt despre proiect" as="textarea" name="message" />
+            <Field label="Spune-ne pe scurt despre proiect" as="textarea" name="message" />
 
             <div className="mt-12 flex flex-col gap-5">
               <button type="submit" className="btn-primary w-full justify-center">
                 Trimite mesajul <span className="btn-arrow">↗</span>
               </button>
               <p className="text-[12.5px] leading-relaxed text-silver/70">
-                Răspund personal fiecărui mesaj. Nimic automat, nimic copy-paste.
+                Răspundem personal fiecărui mesaj. Nimic automat, nimic copy-paste.
               </p>
             </div>
           </motion.form>

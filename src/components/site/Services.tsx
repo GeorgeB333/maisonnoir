@@ -25,7 +25,7 @@ const services = [
     sub: "Punem online.",
     duration: "2–3 zile",
     suited: "Etapa finală",
-    desc: "Transform designul în cod curat și rapid. Pregătit pentru conținut real, modificări ulterioare și un trafic care va crește.",
+    desc: "Transformăm designul în cod curat și rapid. Pregătit pentru conținut real, modificări ulterioare și un trafic care va crește.",
     items: ["React + Vite", "Responsive complet", "Performanță", "Predare clară"],
   },
 ];
@@ -48,9 +48,9 @@ export function Services() {
             className="col-span-12 mt-10 md:col-span-10"
           >
             <h2 className="font-display text-[clamp(2.5rem,6vw,5.5rem)] leading-[1] tracking-[-0.035em]">
-              Nu fac doar design frumos.{" "}
+              Nu facem doar design frumos.{" "}
               <span className="text-silver/55">
-                Construiesc o prezență care îți aduce
+                Construim o prezență care îți aduce
               </span>{" "}
               <span className="italic-serif text-champagne">oamenii potriviți la masă.</span>
             </h2>
@@ -134,10 +134,10 @@ export function Services() {
           <div className="col-span-12 md:col-span-7">
             <p className="font-display text-2xl leading-snug tracking-tight text-bone md:text-[1.75rem]">
               Nu ești sigur de unde să începi?{" "}
-              <span className="italic-serif text-champagne">Scrie-mi două rânduri.</span>
+              <span className="italic-serif text-champagne">Scrie-ne două rânduri.</span>
             </p>
             <p className="mt-3 text-[14.5px] text-silver/80">
-              Îți spun gratuit ce ar avea sens pentru tine — fără presiune să cumperi ceva.
+              Îți spunem gratuit ce ar avea sens pentru tine — fără presiune să cumperi ceva.
             </p>
           </div>
           <div className="col-span-12 md:col-span-5 md:text-right">
