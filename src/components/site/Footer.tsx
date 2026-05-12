@@ -4,14 +4,6 @@ export function Footer() {
       <div className="mx-auto max-w-[1600px]">
         {/* Meta row */}
         <div className="grid grid-cols-12 gap-x-8 gap-y-12 border-t border-border/40 pt-12">
-          <div className="col-span-12 md:col-span-4">
-            <span className="label-champagne">Studio</span>
-            <p className="mt-5 max-w-xs text-[15px] leading-[1.65] text-bone/85">
-              Studio mic de design și frontend din Bucureşti. Lucrez puțin, aleg bine și rămân
-              alături și după lansare.
-            </p>
-          </div>
-
           <div className="col-span-6 md:col-span-2">
             <span className="label">Navigare</span>
             <ul className="mt-5 space-y-3 text-[14px] text-bone/85">
