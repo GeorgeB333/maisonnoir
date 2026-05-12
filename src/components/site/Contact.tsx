@@ -115,10 +115,12 @@ export function Contact() {
                 <span className="link-reveal">studio@maisonnoir.ro</span>
               </a>
               <a
-                href="tel:+40727000000"
+                href="https://wa.me/40757608679"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-mono text-[12px] uppercase tracking-[0.22em] text-silver hover:text-champagne"
               >
-                <span className="link-reveal">+40 727 ··· ··· · WhatsApp</span>
+                <span className="link-reveal">+40 757 608 679 · WhatsApp</span>
               </a>
             </div>
           </div>

@@ -22,7 +22,8 @@ export function Footer() {
                   studio@maisonnoir.ro
                 </a>
               </li>
-              <li><a className="link-reveal" href="tel:+40727000000">+40 727 ··· ···</a></li>
+              <li><a className="link-reveal" href="tel:+40757608679">+40 757 608 679</a></li>
+              <li><a className="link-reveal" href="https://wa.me/40757608679" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
               <li className="text-silver/70">Bucuresti, RO · GMT+2</li>
             </ul>
           </div>

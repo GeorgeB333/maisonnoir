@@ -406,10 +406,10 @@ export function Nav() {
                     studio@maisonnoir.ro
                   </a>
                   <a
-                    href="tel:+40727000000"
+                    href="tel:+40757608679"
                     className="text-right font-mono text-[11px] tracking-[0.04em] text-bone/90"
                   >
-                    +40 727 ··· ···
+                    +40 757 608 679
                   </a>
                 </div>
               </motion.div>
